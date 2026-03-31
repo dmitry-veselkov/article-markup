@@ -8,6 +8,11 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
+main {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .logo {
     width: 97px;
@@ -23,7 +28,26 @@ nav {
     align-content: center;
     border: solid 1px #808080;
 }
+h1 {
+    font-size: 42px;
+    padding-right: 2px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px
+}
 
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+    background-color: #f0f0f0;
+}
 nav a {
     font-family: LucidaGrande;
     font-size: 24px;
@@ -35,7 +59,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    cursor: url("./responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@3x.png"), auto;
+    cursor: url("./responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), auto;
 }
 
 nav a:active {
