@@ -35,7 +35,8 @@ h1 {
     padding-right: 2px;
     color:rgba(0,0,0,0.84);
     text-align:left;
-    line-height:44px
+    line-height:44px;
+    margin-top: 25px;
 }
 
 p {
@@ -66,6 +67,10 @@ nav a:hover {
 
 .active {
     color: #d0021b;
+}
+
+.title {
+    margin-bottom: 20px;
 }
 
 .nav-list {
@@ -107,5 +112,36 @@ nav a:hover {
 
     nav a:hover {
         curson: url("./responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    }
+
+    main {
+        width: fit-content;
+        padding: 12px;
+    }
+
+    p, .code, nav a {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+    .nav-list {
+        margin-left: 20px;
+    }
+
+    .nav-list li {
+        margin-right: 15px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    main img {
+        max-width: 100%;
+        height: auto;
     }
 }
