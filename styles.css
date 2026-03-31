@@ -1,17 +1,63 @@
 /* Тут пиши основные стили */
 * {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
+.logo {
+    width: 97px;
+    height: 64px;
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 31px;
+}
 
+nav {
+    background-color: #f0f0f0;
+    height: 64px;
+    align-content: center;
+    border: solid 1px #808080;
+}
 
+nav a {
+    font-family: LucidaGrande;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: url("./responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@3x.png"), auto;
+}
+
+nav a:active {
+    color: #d0021b;
+}
+
+.nav-list {
+    list-style: none;
+    margin-left: 38px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-list li:last-child {
+    margin-bottom: 0;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
